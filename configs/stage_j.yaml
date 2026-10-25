@@ -1,0 +1,49 @@
+mode: full
+seed: 20260730
+data:
+  cache_dir: data/champs
+  train_limit: 0
+  validation_limit: 0
+  test_limit: 0
+initialization:
+  kind: topology
+  checkpoint: weights/stage_j_topology_initialization.pt
+model:
+  hidden_dim: 256
+  topology_layers: 2
+  equivariant_layers: 4
+  rbf_count: 64
+  pair_rbf_count: 32
+  cutoff: 5.0
+  dropout: 0.05
+training:
+  batch_size: 32
+  num_workers: 4
+  max_epochs: 200
+  mixed_precision: true
+  peak_lr: 0.0003
+  minimum_lr: 1.0e-06
+  warmup_ratio: 0.03
+  weight_decay: 1.0e-05
+  betas:
+  - 0.9
+  - 0.999
+  epsilon: 1.0e-08
+  gradient_clip: 5.0
+  smooth_l1_beta: 1.0
+  component_weights:
+  - 1.0
+  - 0.5
+  - 0.15
+  - 0.15
+  - 0.15
+  consistency_weight: 0.1
+  topology_lr_scale: 1.0
+  log_interval_steps: 50
+  early_stopping_patience_epochs: 20
+  early_stopping_min_delta: 0.0001
+runtime:
+  device: cuda:0
+acceptance:
+  invariance_tolerance_hz: 0.001
+output_dir: runs/stage_j

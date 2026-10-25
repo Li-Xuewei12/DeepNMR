@@ -1,0 +1,169 @@
+{
+  "schema": "deepnmr-release-manifest-v2",
+  "date": "2026-10-25",
+  "scope": "code-only",
+  "files": [
+    {
+      "file": ".gitignore",
+      "bytes": 178,
+      "sha256": "82abeb9bab12b7de593105f78a8fed34ade41be5989dbc15be7951150e810e69"
+    },
+    {
+      "file": "README.md",
+      "bytes": 3914,
+      "sha256": "8415437dad58c2eb7336cc0c2c7be463058e54b10873f0f0f02164960706c392"
+    },
+    {
+      "file": "THIRD_PARTY_NOTICES.md",
+      "bytes": 439,
+      "sha256": "82d83d22b31ac6476d6f5d2f6aac1e39a509914c28e0c5effa6b95da3c532d2d"
+    },
+    {
+      "file": "analysis/analyze_frozen.py",
+      "bytes": 5859,
+      "sha256": "59114aa0834b87cea29b6b55fd5a3fb0c25a1d2dab3ff43036d9acef09c6eb45"
+    },
+    {
+      "file": "configs/stage_delta_13C.yaml",
+      "bytes": 751,
+      "sha256": "7f566c5ca55a67702b0a42ffd79f869c5b10f4def68c90311b92a62304df845a"
+    },
+    {
+      "file": "configs/stage_delta_1H.yaml",
+      "bytes": 750,
+      "sha256": "42637237e200e0270c0e720eeda38d5e406e7bb623820c9c82aecb76767bd5bc"
+    },
+    {
+      "file": "configs/stage_j.yaml",
+      "bytes": 907,
+      "sha256": "04c2460eacc67fed0cf16b51bed15b77b7f62f10f5c4cd5f676eb317f89bf5c8"
+    },
+    {
+      "file": "pyproject.toml",
+      "bytes": 305,
+      "sha256": "63544d78ff245e9166eedd5c46f74f8c8156dd100d828c9bd56e0e2a344dda41"
+    },
+    {
+      "file": "requirements-tested.txt",
+      "bytes": 179,
+      "sha256": "ae5c8114a7a560d89ac876bd7e2fc61c543b879aa8ab27e2823e76307b6d0acc"
+    },
+    {
+      "file": "scripts/audit_peaks.py",
+      "bytes": 3752,
+      "sha256": "d8620a94f517fc269bfe6ae652c813f43c33da3081665abebacd20a7f262c0f9"
+    },
+    {
+      "file": "scripts/audit_release.py",
+      "bytes": 8085,
+      "sha256": "f8139f3281eef8e91a6ef407665051ce21834492ce4b5bf803519e02323a1f58"
+    },
+    {
+      "file": "scripts/audit_training_data.py",
+      "bytes": 5667,
+      "sha256": "30c26ca01358f0d0c8eb47289c3767d0851b01866e41b7353e43d59f346a5bed"
+    },
+    {
+      "file": "scripts/evaluate_assigned.py",
+      "bytes": 1355,
+      "sha256": "2d8dd438373474e3c4e964ff15b962032fda7bf5a2780d3a7fc5373ccb76367a"
+    },
+    {
+      "file": "scripts/predict.py",
+      "bytes": 6123,
+      "sha256": "21ffbead59632ecaf6db4e823a21c555ea0aea8cb6df3c82b3b699ba2f6c54b7"
+    },
+    {
+      "file": "scripts/train_j.py",
+      "bytes": 22007,
+      "sha256": "a0e14706495e50109a1e8570852d5813047738a6b1a7ec09c19125330d0c0a7c"
+    },
+    {
+      "file": "src/deepnmr/__init__.py",
+      "bytes": 53,
+      "sha256": "57adb3ad1e36e821a80f9a561ad72d3b656cad4ad437425741ff0a72fa7581ee"
+    },
+    {
+      "file": "src/deepnmr/checkpoints.py",
+      "bytes": 1634,
+      "sha256": "04cf0e8d88f759b4abf770922f4c21c5572299e2bf7ff9a1be843c933157140b"
+    },
+    {
+      "file": "src/deepnmr/evaluation.py",
+      "bytes": 2517,
+      "sha256": "f5d87b116f842d50af83030dda94e4af32124685dda4409b5ed2ce6a18211cb7"
+    },
+    {
+      "file": "src/deepnmr/overlay.py",
+      "bytes": 21175,
+      "sha256": "21d9cd5fb7f0da34e5181868913f120d2fd72d20d5b40cb4601327cc02115ef2"
+    },
+    {
+      "file": "src/stage_delta/__init__.py",
+      "bytes": 58,
+      "sha256": "4a8b5ea6be96b0712ab0a88ce1c810043840ca567a3ec5678f4554a20b81f1a3"
+    },
+    {
+      "file": "src/stage_delta/data.py",
+      "bytes": 4561,
+      "sha256": "2021c83569b703e01de493f89c99ea53e50d7a9385c3332ab4c5dc9d084dcc03"
+    },
+    {
+      "file": "src/stage_delta/model.py",
+      "bytes": 8203,
+      "sha256": "97a0b0ef544ebea1941d26cd22d95c085cdf0182eb39b016d080678329192033"
+    },
+    {
+      "file": "src/stage_delta/topology.py",
+      "bytes": 3968,
+      "sha256": "51868e0aea260717f51a8f1b0adb01f9c04bd40405167c07b4fe12816d0568a0"
+    },
+    {
+      "file": "src/stage_delta/train.py",
+      "bytes": 17476,
+      "sha256": "5924cc093873f8bd20dc73af5f6cf5bd24cba34338b9512762a505e1f620440a"
+    },
+    {
+      "file": "src/stage_j/__init__.py",
+      "bytes": 269,
+      "sha256": "480f069d8d32ea366790e283ff686b0789ebfc74f7195b6264ae3d8ad8d81aa4"
+    },
+    {
+      "file": "src/stage_j/constants.py",
+      "bytes": 611,
+      "sha256": "758b94cff1cd608d98280cb05d6cd520585badd255cb9320e3168ffad56c5ef6"
+    },
+    {
+      "file": "src/stage_j/data.py",
+      "bytes": 7489,
+      "sha256": "8e90a0f7aae350b507a8449d4e30d42d91de929b5ab057adc7865c4e4c667790"
+    },
+    {
+      "file": "src/stage_j/metrics.py",
+      "bytes": 3810,
+      "sha256": "31c32365758b8f5787b5701fb5d51c8006268724c0119feca253cd5c5de5f6d3"
+    },
+    {
+      "file": "src/stage_j/model.py",
+      "bytes": 17323,
+      "sha256": "ce187291de4fcef8b144cd1cf1bedbfa80b6a66c4fdecef747d4fa89340fbf4a"
+    },
+    {
+      "file": "src/stage_j/training.py",
+      "bytes": 2456,
+      "sha256": "01bffda430d561fe186560d7b7b8537c37ced5135b5ef217b65f96e9cc14ea14"
+    },
+    {
+      "file": "tests/test_release.py",
+      "bytes": 5686,
+      "sha256": "64f376ee595d2adaeb0f8f48e34f75dfabf0a8f1a48f8519b6d3146eb988f5ea"
+    },
+    {
+      "file": "weights/README.md",
+      "bytes": 363,
+      "sha256": "3879464be791afe4b09bb5ba5ed84836b4d90e4254ed1a7d555943f8169b0b4a"
+    }
+  ],
+  "file_count": 32,
+  "total_bytes": 157923
+}
